@@ -63,7 +63,7 @@
             >;
         };
 
-        Nav {n
+        Nav {
             display-name = "Nav";
             bindings = <
               &kp TILDE       &trans     &kp UP_ARROW  &trans     &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DE_PLUS
