@@ -54,6 +54,11 @@
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
+        	};
+	combo_ue {
+            timeout-ms = <50>;
+            key-positions = <2 6>;
+            bindings = <&kp DE_U_UMLAUT>;
         	};	
 	};
 
