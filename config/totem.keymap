@@ -83,9 +83,9 @@
         Nav {
             display-name = "Nav";
             bindings = <
-              &kp TILDE       &trans     &kp UP_ARROW  &trans     &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DE_PLUS
-              &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DE_LEFT_BRACKET    &kp DE_RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DE_MINUS
-&kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &trans        &kp PLUS   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+              &kp HOME       &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN      &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DE_PLUS
+              &kp END  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DE_LEFT_BRACKET    &kp DE_RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DE_MINUS
+&kp LEFT_ALT  &trans    &trans  &trans        &trans   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
                                          &trans        &trans     &trans      &kp DE_PERIOD    &kp DE_COMMA        &kp NUMBER_0
             >;
         };
@@ -93,7 +93,7 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp DQT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND  &kp KP_DIVIDE  &kp KP_ASTERISK  &kp SQT  &kp DQT
+                &kp EXCL  &kp DE_DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND  &kp KP_DIVIDE  &kp KP_ASTERISK  &kp SQT  &kp DQT
                 &trans    &trans   &trans    &trans      &trans         &trans         &trans         &trans           &trans   &trans
 &studio_unlock  &trans    &trans   &trans    &trans      &trans         &kp UNDER      &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
                                    &trans    &trans      &trans         &trans         &trans         &trans
