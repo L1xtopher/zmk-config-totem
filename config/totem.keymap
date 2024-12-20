@@ -93,9 +93,9 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp DE_DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND  &kp KP_DIVIDE  &kp KP_ASTERISK  &kp SQT  &kp DQT
-                &trans    &trans   &trans    &trans      &trans         &trans         &trans         &trans           &trans   &trans
-&studio_unlock  &trans    &trans   &trans    &trans      &trans         &kp UNDER      &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
+                &kp EXCL  &kp DE_DOUBLE_QUOTES  &kp DE_SECTION  &kp DE_DOLLAR  &kp DE_PERCENT    &kp DE_AMPERSAND  &kp DE_SLASH  &kp DE_ASTERISK  &kp DE_EQUAL  &kp DE_QUESTION
+                &trans    &kp DE_SINGLE_QUOTE   &trans    &trans      &trans         &trans         &trans         &trans           &trans   &trans
+&studio_unlock  &trans    &trans   &trans    &trans      &trans         &trans         &trans         &trans           &trans   &trans  &trans
                                    &trans    &trans      &trans         &trans         &trans         &trans
             >;
         };
