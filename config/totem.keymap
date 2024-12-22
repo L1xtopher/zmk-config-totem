@@ -95,7 +95,7 @@
             bindings = <
                 &kp EXCL  &kp DE_DOUBLE_QUOTES  &kp DE_SECTION  &kp DE_DOLLAR  &kp DE_PERCENT    &kp DE_AMPERSAND  &kp DE_SLASH  &kp DE_ASTERISK  &kp DE_EQUAL  &kp DE_QUESTION
                 &trans    &kp DE_SINGLE_QUOTE   &trans    &trans      &kp DE_LESS_THAN         &kp DE_GREATER_THAN         &kp DE_BACKSLASH         &trans           &trans   &trans
-&studio_unlock  &trans    &trans   &trans    &trans      &trans         &trans         &trans         &trans           &trans   &trans  &trans
+&kp DE_CARET  &trans    &trans   &trans    &trans      &trans         &trans         &trans         &trans           &trans   &trans  &trans
                                    &trans    &trans      &trans         &trans         &trans         &trans
             >;
         };
